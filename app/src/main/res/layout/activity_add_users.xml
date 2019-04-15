@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.chatApp.AddUsersActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange_deep"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="center"
+                app:fontFamily="@font/lato"
+                android:textColor="@color/colorWhite"
+                android:text="@string/text_add_users"
+                android:textSize="18sp"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.miguelcatalan.materialsearchview.MaterialSearchView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/toolbar">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_no_search_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:fontFamily="@font/lato"
+        android:layout_margin="5dp"
+        android:textColor="@color/orange_light"
+        android:text="@string/text_no_search_result"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/tv_no_users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_gravity="center"
+        app:fontFamily="@font/lato"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/text_no_users"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:elevation="5dp"
+        android:src="@drawable/ic_create_new"
+        android:onClick="createGroup"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>

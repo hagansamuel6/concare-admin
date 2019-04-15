@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/home"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_residence">
+    </item>
+
+   <!-- <item
+        android:id="@+id/menu_edit_profile"
+        android:title="@string/edit_profile"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_person_white">
+    </item>
+    -->
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/text_about"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_about_us">
+    </item>
+
+    <item
+        android:id="@+id/menu_contact"
+        android:title="@string/text_contact"
+        android:orderInCategory="400"
+        android:icon="@drawable/ic_phone"
+        app:showAsAction="never">
+    </item>
+
+    <!--<item
+        android:id="@+id/orders"
+        android:title="@string/orders"
+        android:icon="@drawable/ic_payment_black_24dp">
+    </item> -->
+
+    <item
+        android:id="@+id/menu_sign_out"
+        android:title="@string/sign_out"
+        android:orderInCategory="500"
+        android:icon="@drawable/ic_logout">
+    </item>
+
+</menu>

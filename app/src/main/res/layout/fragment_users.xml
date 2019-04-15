@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mLayout"
+    android:theme="@style/AppTheme.fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".activities.fragments.UsersFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/search_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:background="@drawable/round_edittext_background">
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:fontFamily="@font/lato"
+                android:textSize="16sp"
+                android:textColor="@color/dark"
+                android:inputType="textMultiLine|textAutoComplete|textAutoCorrect"
+                android:hint="@string/hint_search"
+                android:drawableStart="@drawable/ic_search_grey"
+                android:drawableLeft="@drawable/ic_search_grey"
+                android:drawablePadding="@dimen/padding_normal"
+                app:backgroundTint="@color/colorWhite"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_no_search_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:fontFamily="@font/lato"
+            android:layout_margin="5dp"
+            android:textColor="@color/orange_light"
+            android:text="@string/text_no_search_result"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/search_layout"
+            android:visibility="gone"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_below="@+id/search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_no_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"
+            app:fontFamily="@font/lato"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/text_no_users"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

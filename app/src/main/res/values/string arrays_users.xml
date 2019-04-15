@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--array of gender-->
+    <string-array name="gender">
+        <item> Male </item>
+        <item> Female </item>
+    </string-array>
+
+    <!--array of male contraceptives-->
+    <string-array name="con_male">
+        <!--male condom types-->
+        <item> Fiesta - GHS 5.00 </item>
+        <item> Kiss Condom - GHS 5.00 </item>
+        <item> Other </item>
+    </string-array>
+
+    <!--array of female contraceptives-->
+    <string-array name="con_female">
+    <item> Levon 2 - GHS 10.00 </item>
+    <item> Lydia postpil - GHS 10.00</item>
+        <item> Postinor 2 - GHS 28.00 </item>
+        <item> Other </item>
+    </string-array>
+
+    <!--array of Campuses-->
+    <string-array name="campus">
+        <item> KNUST </item>
+        <item> OTHER </item>
+    </string-array>
+
+
+    <string-array name="location">
+        <item> Ayeduase </item>
+        <item> Ayeduase-Newsite </item>
+        <item> Kotei </item>
+        <item> Campus </item>
+        <item> Bomso </item>
+        <item> Gaza Area </item>
+        <item> Other </item>
+    </string-array>
+
+    <string-array name="residence">
+        <item> Hostel </item>
+        <item> Homestel </item>
+        <item> Other </item>
+    </string-array>
+
+</resources>

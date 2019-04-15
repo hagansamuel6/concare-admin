@@ -1,0 +1,380 @@
+<resources>
+    <string name="app_name" translatable="false">CONCARE GH - ADMIN</string>
+    <string name="application_name" translatable="false">CONCARE GH</string>
+    <string name="admin_name" translatable="false">CONCARE GH:</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_password" translatable="false">Password</string>
+    <string name="hint_location" translatable="false">Location/Address</string>
+    <string name="hint_address" translatable="false">Address</string>
+    <string name="hint_city" translatable="false">City</string>
+    <string name="hint_none" translatable="false">None</string>
+    <string name="hint_campus" translatable="false">Campus</string>
+    <string name="hint_username" translatable="false">Username</string>
+    <string name="hint_phone" translatable="false">Phone Number</string>
+    <string name="hint_contact" translatable="false">Contact Number</string>
+    <string name="hint_search" translatable="false">Search...</string>
+    <string name="hint_room_number" translatable="false">Hostel Room Number</string>
+    <string name="hint_confirm_password" translatable="false">Confirm Password</string>
+    <string name="text_gender" translatable="false">Gender</string>
+    <string name="welcome" translatable="false">Welcome!</string>
+    <string name="welcome_msg" translatable="false">Hope you enjoy the stay</string>
+    <string name="sign_up_link" translatable="false">Not yet a user? Sign Up</string>
+    <string name="login_link" translatable="false">Already a user? Sign In</string>
+    <string name="text_upload_pic" translatable="false">Upload Profile</string>
+    <string name="text_picture" translatable="false">Picture</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="sign_in" translatable="false">Sign In</string>
+    <string name="signUp" translatable="false">Sign Up</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="update" translatable="false">UPDATE</string>
+    <string name="splash_text" translatable="false">powered by iCODE Studios</string>
+    <string name="sub_text" translatable="false">...a convenient place to purchase all contraceptives</string>
+    <string name="title_edit_profile" translatable="false">EDIT PROFILE</string>
+    <string name="text_forgot_password" translatable="false">Forgot Password?</string>
+    <string name="lbl_forgot_password" translatable="false">Forgot Password?</string>
+    <string name="msg_forgot_password" translatable="false">Please enter your email address to reset password</string>
+    <string name="btn_reset_password" translatable="false">Reset Password</string>
+    <string name="btn_back" translatable="false">Go Back</string>
+    <string name="exit_app_message" translatable="false">Please press again to exit</string>
+    <string name="text_order" translatable="false">Order</string>
+    <string name="text_cancel" translatable="false">Cancel</string>
+    <string name="sign_out_msg" translatable="false">Are you sure you want to sign out?</string>
+
+    <string name="notification_title" translatable="false">New Message From </string>
+
+    <!--Error Text -->
+    <string name="error_empty_group_name" translatable="false">Enter a group name</string>
+    <string name="error_empty_email" translatable="false">Email field cannot be left empty</string>
+    <string name="error_empty_password" translatable="false">Password field cannot be left empty</string>
+    <string name="email_invalid" translatable="false">Enter a valid email address</string>
+    <string name="email_registered" translatable="false">Enter your registered email address</string>
+    <string name="email_valid_registered" translatable="false">Enter your valid registered email address</string>
+    <string name="reset_password_instruction" translatable="false">We have sent you instructions to reset your password. Please visit your inbox!</string>
+    <string name="error_password_length" translatable="false">Password length cannot be less than 6</string>
+    <string name="error_empty_phone" translatable="false">Phone Number field cannot be left empty</string>
+    <string name="phone_invalid" translatable="false">Enter a valid phone number</string>
+    <string name="sign_up_successful" translatable="false">Sign Up Successful. Please proceed to login
+        and Thank you for joining us!</string>
+    <string name="login_successful" translatable="false">Login Successful</string>
+    <string name="error_empty_field" translatable="false">Field cannot left empty</string>
+    <string name="error_empty_username" translatable="false">Username is a required field</string>
+    <string name="error_text_hostel" translatable="false">Enter your hostel name to better locate you</string>
+    <string name="error_text_room_number" translatable="false">Enter your room number"</string>
+    <string name="error_text_phone_number" translatable="false">Phone number is a required field</string>
+    <string name="error_number_prefix" translatable="false"> Please make sure your phone number is preceded by 233. e.g. 23324*******</string>
+
+    <string name="welcome_msg_home" translatable="false">WELCOME TO CONCARE GH</string>
+    <string name="welcome_mgs_sub_desc" translatable="false">your home of much privacy!</string>
+    <string name="select_gender_type" translatable="false">Select gender type for contraceptive</string>
+    <string name="order_now" translatable="false">Order Now!</string>
+    <string name="proceed" translatable="false">PROCEED</string>
+    <string name="place_order" translatable="false">PLACE ORDER</string>
+    <string name="gender" translatable="false">Gender</string>
+    <string name="contraceptive" translatable="false">Contraceptive</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="other" translatable="false">Other</string>
+    <string name="residence" translatable="false">Residence</string>
+    <string name="hostel_name" translatable="false">Hostel name</string>
+    <string name="text_sign_up_and_verification_sent" translatable="false">
+        Sign Up Successful!. A verification link has been
+        sent to your mail, please visit your inbox to verify
+        your email address
+    </string>
+    <string name="text_email_not_verified" translatable="false">
+        Email address is not verified,
+        please verify your email from your inbox
+    </string>
+
+    <!-- String progress dialog -->
+    <string name="text_uploading_details" translatable="false">Uploading Details</string>
+    <string name="text_please_wait" translatable="false">Please wait...</string>
+
+    <!-- Home activity menu items -->
+    <string name="text_create_group" translatable="false">Create Group</string>
+    <string name="text_about" translatable="false">About Us</string>
+    <string name="text_contact" translatable="false">Contact Us</string>
+    <string name="text_sign_out" translatable="false">Sign out</string>
+    <string name="text_exit" translatable="false">Exit</string>
+
+    <!-- string for group activity -->
+    <string name="text_groups" translatable="false">Groups</string>
+    <string name="text_group_name" translatable="false">Group Name</string>
+    <string name="enter_group_name" translatable="false">Please enter group name</string>
+    <string name="hint_group_example" translatable="false">e.g KNUST</string>
+    <string name="msg_group_created_successful" translatable="false">Group Created Successfully</string>
+
+    <string name="text_create" translatable="false">CREATE</string>
+
+    <string name="title_undo_changes" translatable="false">Undo Changes</string>
+
+    <string name="body_undo_changes" translatable="false">
+        Leaving this page will cancel the creating of the current group and changes will be lost
+    </string>
+
+    <!--<string name="text_about_us">
+        ConCare GH is a unique
+        and nascent business set up to encourage the
+        use of contraceptives over unprotected, unsafe sex,
+        which places high-risk on those involved.
+    </string> -->
+
+    <string name="text_contact_us" translatable="false">
+        If you have any issues or suggestions regarding
+        the use of the application , feel free to contact
+        us on +233245134112 / +233249959061 / +233501360324
+        or send a mail to concaregh@gmail.com
+    </string>
+
+    <string name="text_about_us" translatable="false">
+        CONCARE GH is a unique and nascent reproduction
+        health business set up to enhance reproductive
+        health commodity security, a system where every
+        person is able to choose, obtain and use quality
+        contraceptives and other essential reproductive
+        health products whenever s/he needs them.
+    </string>
+
+    <string name="hint_overview" translatable="false">Overview</string>
+    <string name="hint_mission" translatable="false">Mission</string>
+    <string name="hint_vision" translatable="false">Vision</string>
+
+    <string name="text_overview" translatable="false">
+        CONCARE GH seeks to remove shyness,
+        which is evident of their (victims\')
+        reluctance to purchase contraceptives;
+        with our business system and strategy,
+        there is relatively much privacy.
+    </string>
+
+    <string name="text_mission" translatable="false">
+        Providing a more conducive environment
+        for our clients in purchasing contraceptives.
+    </string>
+
+    <string name="text_vision" translatable="false">
+        To be the best and leading contraceptive health
+        provider in Ghana and the world at large, and to
+        also ensure mass participation in contraceptive use.
+    </string>
+
+    <string name="welcome_message" translatable="false">
+        CONCARE GH has a lot to offer you.
+        Just Open the drawer on the left of
+        the screen to know more about us
+        and freely place order for any
+        contraceptive of your choice.
+        Enjoy and feel free to contact us if
+        need arises!
+    </string>
+
+    <!-- text used in PhoneLoginActivity-->
+    <string name="text_input_phone_number" translatable="false">May I ask for your mobile number?</string>
+    <string name="text_enter_phone" translatable="false">enter your mobile number</string>
+    <string name="text_continue" translatable="false">Continue</string>
+    <string name="text_verification_code" translatable="false">enter verification code</string>
+    <string name="text_wait" translatable="false">Wait for the code sent to You</string>
+
+    <!-- Navigation drawer menu -->
+    <string name="dummy_username" translatable="false">Username : username</string>
+    <string name="dummy_email" translatable="false">Email : username@gmail.com </string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+    <string name="address" translatable="false">Address</string>
+    <string name="orders" translatable="false">Orders</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="sign_out" translatable="false">Sign out</string>
+    <string name="logout" translatable="false">Sign out</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="logout_msg" translatable="false">Are you sure you want to sign out?</string>
+
+    <string name="verification_sent" translatable="false">
+        Sign Up Successful. A verification link has been + sent to + mAuth.getCurrentUser().getEmail()  +
+        Please visit your inbox to verify + our email address. Thanks for joining us!
+    </string>
+
+    <string name="title_share" translatable="false">Share</string>
+    <string name="text_chat_us" translatable="false">Chat Us</string>
+    <string name="text_chats" translatable="false">Chats</string>
+    <string name="text_users" translatable="false">Users</string>
+    <string name="text_add_users" translatable="false">Add Users</string>
+    <string name="text_no_users" translatable="false">No Users added yet</string>
+    <string name="text_no_search_result" translatable="false">No search results found</string>
+    <string name="text_admin" translatable="false">Admin</string>
+    <string name="text_chat_with_us" translatable="false">Chat with Us</string>
+    <string name="no_recent_chats" translatable="false">No Recent Chats</string>
+
+    <string name="default_notification_channel_id" translatable="false">Default Notification Channel Id</string>
+
+    <string name="prefix_number" translatable="false">233</string>
+
+    <!-- Deep linking intent-filter-->
+    <string name="filter_title_con_care_gh" translatable="false">Con Care GH </string>
+
+    <!--Developer-->
+    <string name="watermark" translatable="false">Developed by <b>iCODE labs</b> © 2018</string>
+
+    <string name="todo" translatable="false">TODO</string>
+    <string name="who_we_are" translatable="false">WHO WE ARE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="data_label" translatable="false">Source Text</string>
+
+    <string name="text_copy" translatable="false">C</string>
+
+    <string name="text_copied" translatable="false">Copied</string>
+
+    <string name="text_pasted" translatable="false">Pasted</string>
+
+    <string name="status_online" translatable="false">online</string>
+
+    <string name="status_offline" translatable="false">offline</string>
+
+    <string name="type_message" translatable="false">Type a message</string>
+
+    <string name="no_text_message" translatable="false">Type a message to send</string>
+
+    <string name="text_msg_deleted" translatable="false">Message deleted</string>
+
+    <string name="text_hi" translatable="false">Hi, there!</string>
+
+    <string name="deleted_msg_alert" translatable="false">please long click on a message to delete </string>
+
+    <string name="long_click_msg_alert" translatable="false">please long click to see more options </string>
+
+    <string name="text_reproductive_health" translatable="false">
+
+        Reproductive health is a crucial part of general health and a central feature of human development.
+        It is a reflection of health during childhood, and crucial during adolescence and adulthood,
+        sets the stage for health beyond the reproductive years for both men and women and affects the
+        health of the next generation.
+
+        Reproductive health does not start out from a list of diseases or problems- STIs, maternal mortality.
+        Instead, it must be understood in the context of relationship- fulfillment and risk; the availability
+        to avoid unwanted or unsafe pregnancy.
+
+        Do you have any problem with your reproductive health, or perhaps, you want to acquire knowledge on
+        how to put on good, healthy reproductive lifestyles, feel free to chats our consortium of professionals.
+
+        A healthy reproductive system is a key to good health!
+
+    </string>
+
+    <string name="text_1" translatable="false">
+        Reproductive health is a crucial part of general health and a central feature of human development.
+        It is a reflection of health during childhood, and crucial during adolescence and adulthood,
+        sets the stage for health beyond the reproductive years for both men and women and affects the
+        health of the next generation.
+    </string>
+
+    <string name="text_2" translatable="false">
+        Reproductive health does not start out from a list of diseases or problems- STIs, maternal mortality.
+        Instead, it must be understood in the context of relationship- fulfillment and risk; the availability
+        to avoid unwanted or unsafe pregnancy.
+    </string>
+
+    <string name="text_3" translatable="false">
+        Do you have any problem with your reproductive health, or perhaps, you want to acquire knowledge on
+        how to put on good, healthy reproductive lifestyles, feel free to chats our consortium of professionals.
+    </string>
+
+    <string name="text_4" translatable="false">
+        A healthy reproductive system is a key to good health!
+    </string>
+
+    <string name="text_welcome" translatable="false">
+        Welcome
+    </string>
+
+    <string name="text_hello" translatable="false">
+        Hello
+    </string>
+
+    <string name="text_search" translatable="false">
+        Search...
+    </string>
+
+    <string name="text_group_info" translatable="false">
+        Group Info
+    </string>
+
+    <string name="msg_no_image" translatable="false">
+       No Image Selected
+    </string>
+
+    <string name="profile_update" translatable="false">
+       group icon updated successfully
+    </string>
+
+    <string name="text_seen" translatable="false">
+         Seen
+    </string>
+
+    <string name="text_delivered" translatable="false">
+         Delivered
+    </string>
+
+    <string name="no_message" translatable="false">
+         No Message
+    </string>
+
+    <!-- Strings for ContextMenulistener for deleting messages  in chats -->
+    <string name="delete_msg" translatable="false">
+         Delete message?
+    </string>
+
+    <string name="text_delete_msg" translatable="false">
+         Delete Message
+    </string>
+
+    <string name="text_delete_for_me" translatable="false">
+         Delete Message
+    </string>
+
+    <string name="text_cancel_for_me" translatable="false">Cancel</string>
+
+    <string name="text_yes" translatable="false">
+         YES
+    </string>
+
+    <string name="text_no" translatable="false">
+         NO
+    </string>
+
+    <string name="text_no_internet">check Internet Connection and Try Again!</string>
+
+    <string name="title_delete_message" translatable="false">
+         Delete Message
+    </string>
+
+    <string name="notification_failed" translatable="false">
+         Failed to send notification to users
+    </string>
+
+    <string name="no_internet">No Internet.Please check connection and try again</string>
+
+    <string name="retry">Tap on the image above to retry</string>
+
+    <string name="incorrect_pass_email">Incorrect email or password. Please Try Again!</string>
+
+    <string name="text_delete_message" translatable="false">
+         Are you sure you want to delete this message?
+    </string>
+
+    <string name="reset_pass_msg">Cannot Reset Password. Please contact developer for assistance. Thank you</string>
+
+    <string name="signing_out_text">signing out..</string>
+
+    <!-- Intent animation string -->
+    <string name="fadein_to_fadeout">fadein-to-fadeout</string>
+
+    <string name="left_to_right">left-to-right</string>
+
+    <string name="right_to_left">right-to-left</string>
+
+    <string name="up_to_bottom">up-to-bottom</string>
+
+    <string name="bottom_to_up">bottom-to-up</string>
+
+</resources>

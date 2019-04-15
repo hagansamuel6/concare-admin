@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat_bg"
+    android:focusableInTouchMode="true"
+    tools:context=".activities.chatApp.MessageActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange_deep"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_user_white"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/nunito_semibold"
+                android:textColor="@color/colorWhite"
+                android:text="@string/hint_username"/>
+
+            <TextView
+                android:id="@+id/user_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                app:fontFamily="@font/nunito_semibold"
+                android:text="@string/text_hello"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"/>
+
+           </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/bar_layout"
+        android:layout_above="@+id/button_send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:progressBarStyleSmall"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_no_chats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        app:fontFamily="@font/nunito_semibold"
+        android:textColor="@color/orange_light"
+        android:text="@string/no_recent_chats"
+        android:visibility="gone"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/button_send_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toStartOf="@+id/layout_send"
+            android:layout_toLeftOf="@+id/layout_send"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0.5dp"
+            app:cardBackgroundColor="@color/white_ghost"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="5dp"
+            android:background="@drawable/circular_edittext"
+            android:layout_alignParentBottom="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/img_emoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:gravity="bottom"
+                    android:background="@drawable/ic_emoji"/>
+                <EditText
+                    android:id="@+id/editTextMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/type_message"
+                    android:fontFamily="@font/lato"
+                    android:padding="10dp"
+                    android:textColor="@color/background_super_dark"
+                    android:gravity="center_vertical"
+                    style="?android:attr/textAppearanceMedium"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:inputType="textMultiLine|textAutoComplete|textAutoCorrect"
+                    android:layout_toRightOf="@+id/img_emoji"
+                    android:layout_toEndOf="@+id/img_emoji"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/layout_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            app:elevation="1dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+            <ImageButton
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="7dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_send"
+                android:background="@drawable/circular_button"/>
+        </LinearLayout>
+
+</RelativeLayout>

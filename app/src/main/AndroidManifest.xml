@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.icode.concareghadmin.application"
+    android:installLocation="auto">
+
+    <!-- support screen sizes -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- Added permission -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--
+            <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        -->
+
+        <activity
+            android:name=".activities.activities.AdminLoginActivity"
+            android:configChanges="screenLayout|screenSize|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.activities.SplashScreenActivity"
+            android:configChanges="screenLayout|screenSize|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.activities.AdminSignUpActivity" />
+        <activity
+            android:name=".activities.chatApp.ChatActivity"
+            android:configChanges="screenLayout|screenSize|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activities.activities.ResetPasswordActivity" />
+        <activity android:name=".activities.chatApp.MessageActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="screenLayout|screenSize|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <!-- service to handle the sending of notifications -->
+        <service
+            android:name=".activities.notifications.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".activities.notifications.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activities.chatApp.GroupMessageActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="screenLayout|screenSize|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".activities.chatApp.AddUsersActivity"
+            android:configChanges="screenLayout|screenSize|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".activities.chatApp.GroupInfoActivity"
+            android:configChanges="screenLayout|screenSize|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange_deep</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.fragment" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@android:color/darker_gray</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Splash" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange_deep</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Reset_Password" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange_deep</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Sign_up" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/white_snow</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="homeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange_light</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="homeTheme.order" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/white_snow</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="homeTheme.profile" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange_light</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_light</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange_light</item>
+        <item name="colorPrimary">@color/orange_light</item>
+        <item name="colorPrimaryDark">@color/orange_deep</item>
+    </style>
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog"/>
+
+</resources>

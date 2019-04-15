@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#3F51B5</color>
+    <color name="raisen_black">#231123</color>
+    <color name="text_tertiary_dark">#61000000</color> <!-- 38% -->
+    <color name="dark">#000000</color>
+    <color name="accent">#1976D2</color>
+
+    <color name="status_bar_back">#ff676767</color> <!-- this is blended with immersive_bars to produce the desired status bar color i.e. background_super_dark -->
+    <color name="background_super_dark">#ff292929</color>
+
+    <color name="colorBlue">#3F51B5</color>
+    <color name="colorBlueDark">#303F9F</color>
+    <color name="colorPrimaryDark">#FF2081</color>
+    <color name="colorPrimary">#FB4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="text_color">#01A9CB</color>
+    <color name="edit_text_color">#1C1C1C</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="colorGray">#2F2F2F</color>
+    <color name="holo_red_light">#c21f16</color>
+    <color name="back_color">#FFF54E4E</color>
+    <color name="colorViolet">#81779D</color>
+    <color name="colorLightBlue">#FF0386DB</color>
+    <color name="colorVioletLight">#A292C7</color>
+    <color name="colorVioletDeep">#6d73c9</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+
+
+    <color name="colorRed">#ff0000</color>
+    <color name="claret">#820933</color>
+    <color name="debian_red">#CF1259</color>
+    <color name="purple">#7D387D</color>
+    <color name="tart_orange">#FE4A49</color>
+    <color name="sunset_orange">#F05D5E</color>
+    <color name="bondi_blue">#009FB7</color>
+    <color name="pink_ras_berry">#89023E</color>
+    <color name="colorDeepPurple">#7c4dff</color>
+    <color name="materialGreen">#00bfa5</color>
+    <color name="content_placeholder">#ffe0e0e0</color>
+    <color name="materialYellow">#FFC107</color>
+    <color name="materialDarkYellow">#FFA000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#fcfcfc</color>
+    <color name="lightGrey">#ededed</color>
+    <color name="green">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selector_color">#9E9E9E</color>
+    <color name="light_blue">#00d4ff</color>
+
+    <!-- theme colors -->
+    <color name="orange_princeton">#F28123</color>
+    <color name="orange_ten">#F17300</color>
+
+    <color name="orange_deep">#E64A19</color>
+    <color name="orange_light">#FE5722</color>
+
+    <color name="yellow_light">#ff9933</color>
+
+    <color name="yellow">#FFCC4E</color>
+
+    <color name="green_india">#149911</color>
+    <color name="green_napier">#38A700</color>
+
+    <color name="green_forest">#119822</color>
+
+    <color name="green_paris">#58BC82</color>
+
+    <color name="white_ghost">#FAFAFF</color>
+    <color name="white_snow">#FBFAF8</color>
+
+    <color name="white_dim">#dddddd</color>
+
+    <color name="white_grey_dim">#D3D3C9</color>
+
+    <color name="white_grey_light">#DFDED9</color>
+
+    <color name="colorSilver">#C0C0C0</color>
+
+    <color name="lime">#ffcc99</color>
+
+    <!-- Transparent Colors -->
+    <color name="TransparentWhite">#A6FAFAFF</color>
+    <color name="TransparentOrange">#8CFE5722</color>
+    <color name="TransparentDark">#CCff6767</color>
+
+
+    <!-- Chats App Colors -->
+    <color name="green_light">#3eaeae</color>
+    <color name="green_deep">#226e6e</color>
+    <color name="chat_color">#e6e6e6</color>
+
+    <color name="pure_white">#f0f0f0</color>
+
+</resources>
